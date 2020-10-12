@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-areas: 
+  "header header"
+  "nav profile"
+  "footer footer";
+
+  grid-template-rows: 56px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+    grid-area: profile;
+    background-color:#00c3ff;
+  }
+  
+
+

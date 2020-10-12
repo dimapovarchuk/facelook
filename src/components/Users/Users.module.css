@@ -1,0 +1,13 @@
+.photo {
+    width: 150px;
+    height: 130px;
+    border-radius: 20px;
+  }
+.selectedPage {
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+}
